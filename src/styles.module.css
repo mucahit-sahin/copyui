@@ -1,0 +1,64 @@
+/* add css module styles here (optional) */
+
+.button {
+  line-height: 1.5715;
+  position: relative;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  border: 1px solid transparent;
+  box-shadow: 0 2px #00000004;
+  cursor: pointer;
+  height: 32px;
+  padding: 4px 15px;
+  font-size: 14px;
+  border-radius: 2px;
+}
+.default {
+  color: #000000d9;
+  background: #fff;
+  border-color: #d9d9d9;
+}
+.default:hover {
+  color: #40a9ff;
+  border-color: #40a9ff;
+}
+.primary {
+  color: #fff;
+  background: #1890ff;
+  border-color: #1890ff;
+}
+.primary:hover {
+  background: #40a9ff;
+  border-color: #40a9ff;
+}
+.dashed {
+  color: #000000d9;
+  background: #fff;
+  border-color: #d9d9d9;
+  border-style: dashed;
+}
+.dashed:hover {
+  color: #40a9ff;
+  border-color: #40a9ff;
+}
+.textBt {
+  color: #000000d9;
+  background: 0 0;
+  border-color: transparent;
+  box-shadow: none;
+  border: none;
+}
+.textBt:hover {
+  background: rgba(0, 0, 0, 0.018);
+  border-color: transparent;
+}
+.linkBt {
+  color: #1890ff;
+  background: 0 0;
+  border-color: transparent;
+  box-shadow: none;
+}
+.linkBt:hover {
+  color: #40a9ff;
+}
